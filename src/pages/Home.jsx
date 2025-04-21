@@ -3,7 +3,10 @@ import Gallery from "../components/Gallery";
 
 const Home = () => {
     return (
+        <>
         <Navbar />
+        <Gallery />
+        </>
     )
 }
 
