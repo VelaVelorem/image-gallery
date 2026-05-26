@@ -4,8 +4,10 @@ import Gallery from "../components/Gallery";
 const Home = () => {
     return (
         <>
-        <Navbar />
-        <Gallery />
+        <div className="flex gap-4">
+        <Navbar className="flex-initial" />
+        <Gallery className="flex-auto" />
+        </div>
         </>
     )
 }

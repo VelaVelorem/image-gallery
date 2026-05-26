@@ -14,7 +14,7 @@ const Navbar = () => {
 
 
     return (
-        <nav className={`h-screen bg-slate-500 text-slate-100 flex flex-col transition-all duration-300 ease-in-out ${isCollapsed ? "w-20" : "max-w-80"}`}>
+        <nav className={`h-auto bg-slate-500 text-slate-100 flex flex-col transition-all duration-300 ease-in-out ${isCollapsed ? "w-20" : "max-w-80"}`}>
             <div className="profileContainer flex px-5 py-10 justify-around flex-wrap border-b items-center">
                 {!isCollapsed && (
                     <div className="flex items-center gap-3 flex-wrap">
