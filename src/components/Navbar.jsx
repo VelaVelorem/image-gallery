@@ -1,5 +1,5 @@
 import { Heart, Leaf, PawPrint, Shirt, Factory, Menu } from 'lucide-react';
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import Placeholder from '../imgs/96.png';
 import SearchBar from './SearchBar';
 import DarkToggle from './DarkToggle';
@@ -20,13 +20,13 @@ const Navbar = () => {
                     <div className="flex items-center gap-3 flex-wrap">
                         <img src={Placeholder} alt="profileHeadshot" className="h-24 rounded-full" />
                         <div className="profileInfo">
-                            <p className="text-sm tracking-wide">Guest</p>
+                            <p className="text-sm tracking-wide">Nickname</p>
                             <p className="text-xs tracking-wide uppercase">Guest@gmail.com</p>
                         </div>
                     </div>
                 )}
 
-            <button onClick={toggleOpen} className="ml-auto">
+            <button onClick={toggleOpen} className="ml-auto mt-4">
                 <Menu className="h-6" />
             </button>
             </div>
